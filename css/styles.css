@@ -608,6 +608,7 @@ img {
 
 /* Section Join */
 .join-text {
+  display: inline-block;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -919,6 +920,7 @@ img {
 
 .footer-form {
   display: block;
+  margin-left: auto;
 }
 
 .footter-input {
@@ -928,6 +930,11 @@ img {
   border: solid 1px var(--footer-input-border);
   border-radius: 4px;
   margin-right: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.3;
+  color: var(--primary-white-color);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -944,10 +951,10 @@ img {
   border-color: #2196f3;
 }
 
-.button-title::after {
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-color: red;
-  /* background-image: url(/images/icons/button-icons/send.svg); */
+.submit-icon {
+  margin-left: 10px;
+}
+
+.subscribe {
+  display: flex;
 }
